@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <title>Molly Yu</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,6 @@
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#aboutme" class="w3-bar-item w3-button">About Me</a>
-      <a href="#skills" class="w3-bar-item w3-button">Skills</a>
       <a href="#projects" class="w3-bar-item w3-button">Projects</a>
       <a href="#connect" class="w3-bar-item w3-button">Connect</a>
     </div>
@@ -22,8 +21,8 @@
 </div>
 
 <!-- Header -->
-<header class="bg"id="home">
-   <img class="bg" src="images/pink.jpeg" alt="Molly Yu" >
+<header class="head" id="home">
+  <img class="bg" src="images/pink.jpeg" alt="Molly Yu">
   <div class="w3-display-middle w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge">Molly Yu</h1>
     <p class="w3-opacity"><i>Software Developer</i></p>
@@ -31,87 +30,89 @@
 </header>
 
 
-    <!-- About Me -->
-    <section class="container w3-center w3-content" style="max-width:1000px max-height:500px" id="aboutme">
-        <h2 class="w3-wide w3-margin">About Me</h2>
-        <img src="images/me2.jpg" class="w3-circle w3-image w3-opacity-min w3-margin-right w3-margin-right w3-cell" alt="Table Setting"  align = "left" width="250" height="250">
-
-        <div class="w3-col m6 w3-padding-large">
-        <p class="w3-justify w3-cell" style="max-width: 500px">Hello! My name is Molly Yu and I am a software engineer based in Toronto, Canada. I am currently studying Software Engineering at the University of Waterloo, seeking a Summer 2020 Co-op position. I have a strong passion for software development, particularly in Artificial Intelligence and Machine Learning. 
-          <br><br>Having participated in the International Biology Olympiad, I love all aspects of biology and am very familiar with biological tools and laboratory techniques. I'm very interested the area of bioinformatics, improving healthcare through computer science, mathematics, and engineering. <br><br><br><br>
-          </p>
-          </div>
-    </section>
-
-
-    <!-- Skills -->
-    <section class="container w3-center w3-content" style="max-width:500px" id="skills">
-      <h2 class="w3-wide w3-margin">Skills</h2>
-      <p class = "w3-justify">From self-learning through online resources to creating projects of my own, I am always trying to learn about the newest technologies and acquiring new skills. <br>
-        Some of the technologies I've used include:
-        <section class="container w3-center w3-content w3-cell" style="max-width:400px">
-        <section class="container w3-center w3-content w3-cell">
-        <ul style="list-style-type:disc">
-          <li class="w3-left-align">C</li>
-          <li class="w3-left-align">C++</li class="w3-left-align">
-          <li class="w3-left-align">Java</li class="w3-left-align">
-          <li class="w3-left-align">Python</li class="w3-left-align">
-        </ul>
-      </section>
-      <section class="container w3-center w3-content w3-cell" 
-        <ul class="w3-left" style="list-style-type:disc">
-          <li class="w3-left-align">HTML/CSS</li>
-          <li class="w3-left-align">JavaScript</li class="w3-left-align">
-          <li class="w3-left-align">Arduino</li class="w3-left-align">
-          <li class="w3-left-align">Geneious</li class="w3-left-align">
-        </ul>
-      </section>
-    </section>
-      </p>
-    </section>
-
+<!-- About Me -->
+<section class="container w3-center w3-content" style="max-width:900px" id="aboutme">
+  <h2 class="w3-wide w3-margin">About Me</h2>
+  <section class="w3-container m6 w3-padding-large">
     
-    <!-- Projects -->
-    <section class="w3-row-padding w3-center w3-light-grey" id="projects">
-      <h2 class="w3-wide w3-center w3-margin">Projects</h2>
-      <section class="container w3-center w3-content" style="max-width:500px">
-      <p class="w3-justify">I've worked on several projects and tasks involving robotics, object-oriented programming, and graphic user interface. Here are some of my recent ones!</p>
-    </section>
+      <img src="images/me2.jpg" class="profile w3-circle w3-opacity-min  w3-cell"
+   alt="Molly Yu" align="left" width="250" height="250">
+   <p class="w3-justify w3-cell display:inline-block" style="max-width: 800px">
+      Hello! My name is Molly Yu and I am a software engineer based
+      in Toronto, Canada. I am currently studying Software Engineering at the University of Waterloo, seeking a Summer
+      2020 Co-op position. I have a strong passion for software development, particularly in Artificial Intelligence and
+      Machine Learning.
+      <br><br>Having participated in the International Biology Olympiad, I love all aspects of biology and am very passionate about
+      improving healthcare through computer science, mathematics, and engineering. <br><br>
+    From self-learning through online resources to creating projects of
+      my own, I am always trying to learn about the newest technologies and acquiring new skills. <br><br>
+      Some of the technologies I've used include:<br>
+      <section class="container">
+        <section class="w3-center w3-content w3-cell">
+          <ul style="list-style-type:disc">
+            <li class="w3-left-align">C</li>
+            <li class="w3-left-align">C++</li>
+            <li class="w3-left-align">Java</li>
+            <li class="w3-left-align">Python</li>
+          </ul>
+        </section>
+        <section class=" w3-center w3-content w3-cell">
+          <ul style="list-style-type:disc">
+            <li class="w3-left-align">HTML/CSS</li>
+            <li class="w3-left-align">JavaScript</li>
+            <li class="w3-left-align">Arduino</li>
+            <li class="w3-left-align">Geneious</li>
+          </ul>
+        </section>
+      </section>
+    </p>
+  </section>
+</section>
+
+
+
+ <!-- Projects -->
+ <section class="w3-container w3-center w3-light-grey" id="projects">
+  <h2 class="w3-wide w3-center w3-margin">Projects</h2>
+  <section class="w3-container w3-center w3-content" style="max-width:500px">
+  <p class="w3-justify">I've worked on several projects and tasks involving robotics, object-oriented programming, and graphic user interface. Here are some of my recent ones!</p>
+</section>
+<article class="w3-third">
+        <h3>Robotic Soil Sampler</h3>
+        <img src="images/5.jpg" alt="Robotic Soil Sampler" class = "w3-card-4 w3-opacity" width=300 height =200>
+        <p></p>
+    </article>
     <article class="w3-third">
-            <h3>Robotic Soil Sampler</h3>
-            <img src="images/5.jpg" alt="Robotic Soil Sampler" class = "w3-card-4 w3-opacity" width=300 height =200>
-            <p></p>
-        </article>
-        <article class="w3-third">
-            <h3>Rubik's Cube Solver</h3>
-            <img src="images/11.PNG" alt="Rubik's Cube Solver" class = "w3-card-4 w3-opacity" width=300 height =200>
-            <p></p>
-        </article>
-        <article class="w3-third">
-            <h3>Ant Farm Simulation</h3>
-            <img src="images/2.JPG" alt="Ant Farm Simulation" class = "w3-card-4 w3-opacity" width=300 height =200>
-            <p>.</p>
-        </article>
-    </section>
+        <h3>Rubik's Cube Solver</h3>
+        <img src="images/11.PNG" alt="Rubik's Cube Solver" class = "w3-card-4 w3-opacity" width=300 height =200>
+        <p></p>
+    </article>
+    <article class="w3-third">
+        <h3>Ant Farm Simulation</h3>
+        <img src="images/2.JPG" alt="Ant Farm Simulation" class = "w3-card-4 w3-opacity" width=300 height =200>
+        <p></p>
+    </article>
+</section>
+
 
 <!-- Connect -->
-    <section class="bg"id="connect">
-      <h2 class="w3-wide">Connect</h2>
-      <section class="container w3-center w3-content" style="max-width:1600px min-height:1300px"></section>
-        <p class = "w3-jcenter">Let's Connect!<br><br><br>
-          <a href="https://github.com/molly-yu" target="_blank">
-          <img src="images/github.png" alt="Random Name"  width=50 height =50>
-          </a>
-          <a href="mailto:m234yu@edu.uwaterloo.ca" target="_blank">
-          <img src="images/email2.png" alt="Random Name"  width=50 height =50>
-          </a>
-          <a href="https://www.linkedin.com/in/molly-yu-/" target="_blank">
-          <img src="images/linkedin3.png" alt="Random Name"  width=50 height =50>
-          </a>
-          </p>
-      </section>
-      
-    </section>
+<section class="head" id="connect">
+  <h2 class="w3-wide">Connect</h2>
+  <section class="container w3-center w3-content" style="max-width:1600px">
+  <p class="w3-jcenter">Let's Connect!<br><br><br>
+    <a href="https://github.com/molly-yu" target="_blank">
+      <img src="images/github.png" alt="Random Name" width=50 height=50>
+    </a>
+    <a href="mailto:m234yu@edu.uwaterloo.ca" target="_blank">
+      <img src="images/email2.png" alt="Random Name" width=50 height=50>
+    </a>
+    <a href="https://www.linkedin.com/in/molly-yu-/" target="_blank">
+      <img src="images/linkedin3.png" alt="Random Name" width=50 height=50>
+    </a>
+  </p>
+</section>
+
+</section>
 
 </body>
 

@@ -9,12 +9,25 @@ body{
     height:100%;
     font-family: "Calibri", Georgia, Serif;
 }
+/*------------------------------- profile img ------------------------------------------------ */
+.profile{
+
+    margin-bottom:50px;
+    margin-right:50px;
+}
 /*------------------------------- h ------------------------------------------- */
-h1, h2, h3, h4, h5, h6 { 
+h1{
+    font-family: "Calibri"; letter-spacing: 4px; 
+} 
+h2{
+padding-top:60px;
+font-family: "Calibri"; letter-spacing: 4px; 
+}
+ h3, h4, h5, h6 { 
     font-family: "Calibri"; letter-spacing: 4px; 
 }
 /*------------------------------- bg ------------------------------------------- */
-.bg {
+.head {
     margin:0px;
     padding:0px;
     position: relative;
@@ -40,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
     height: -webkit-fill-available;
     height: -moz-available;          
     height: fill-available;
-    width:100vh;
     width: -moz-available;         
     width: -webkit-fill-available;  
     width: fill-available;
