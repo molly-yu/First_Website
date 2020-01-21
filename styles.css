@@ -9,14 +9,22 @@ body{
     height:100%;
     font-family: "Calibri", Georgia, Serif;
 }
-/*------------------------------- headers ------------------------------------------- */
+/*------------------------------- h ------------------------------------------- */
 h1, h2, h3, h4, h5, h6 { 
     font-family: "Calibri"; letter-spacing: 4px; 
 }
-/*------------------------------- container ------------------------------------------- */
-.container {
+/*------------------------------- header ------------------------------------------- */
+header {
     margin:0px;
     padding:0px;
+    position: relative;
+    text-align: center;
+    height:100%;
+    width:100%;
+
+  }
+  /*------------------------------- container ------------------------------------------- */
+.container {
     position: relative;
     text-align: center;
     height:100%;
