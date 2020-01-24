@@ -82,6 +82,12 @@ h3, h4, h5, h6 {
   height: 200px;
 }
 
+
+.mySlides>img{
+width: 600px;
+height:400px;
+}
+
 .slide{
   display: block;
 margin-left: auto;
