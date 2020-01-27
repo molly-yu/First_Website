@@ -84,8 +84,8 @@ h3, h4, h5, h6 {
 
 
 .mySlides>img{
-width: 600px;
-height:400px;
+width: 90vh;
+height:60vh;
 }
 
 .slide{
