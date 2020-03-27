@@ -1,3 +1,6 @@
-# My Personal Website
+# My First Website
 
-Learn more about me! I post some of my projects and works here, too!
+
+A personal website I created using HTML, CSS, and JavaScript. Run Index.html to view the website.
+
+
